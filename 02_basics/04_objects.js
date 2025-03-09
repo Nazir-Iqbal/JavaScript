@@ -46,6 +46,7 @@ const course = {
 }
 
 // destructuring of the object
+// course.courseInstructor
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor)
