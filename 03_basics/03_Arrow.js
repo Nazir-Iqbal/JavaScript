@@ -1,12 +1,12 @@
-const user = {
-    username: "Nazir",
-    price: 999,
+// const user = {
+//     username: "Nazir",
+//     price: 999,
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
-}
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`);
+//         console.log(this);
+//     }
+// }
 // this is a reference to the object that is executing the current function.
 // user.welcomeMessage()
 // user.username = "sam"
@@ -16,7 +16,8 @@ const user = {
 
 // function coffee(){
 //     let username = "Nazir"
-//     console.log(this.username);// cannot use this in the objects
+//     // console.log(this.username);// cannot use this in the objects
+//     console.log(this);
 // }
 
 // coffee();
@@ -36,6 +37,6 @@ const user = {
 // const add = (num1,num2) => num1+num2
 // const add = (num1,num2) => (num1+num2)
 
-const add = (num1,num2) => ({username : "Nazir"}) // return turning the object
+// const add = (num1,num2) => ({username : "Nazir"}) // return turning the object
 
-console.log(add(2,4))
+// console.log(add(2,4))
